@@ -31,7 +31,7 @@ let increment = 0
 increment = 20
 range_max = 180
 servos.P0.setRange(range_min, range_max)
-servos.P0.setStopOnNeutral(false)
+servos.P0.setStopOnNeutral(true)
 basic.forever(function () {
 	
 })
